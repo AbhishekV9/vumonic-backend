@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            text-align: center;
+        }
+        a{
+            text-decoration:none;
+            color:green;
+            font-size: 30px;
+        }
+        span{
+            font-size: 30px;   
+        }
+        div{
+            text-align: center;
+        }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <main>
+        <h1>Here is Your Token</h1>
+        <h3>Token:-</h3>
+        <p><%=token %></p>
+        <div><span>click Here:- <a href="http://localhost:8000/getfile?token=<%= token %>">Here Is Your Link To Acess </a></span></div>
+    </main>
+</body>
+</html>
